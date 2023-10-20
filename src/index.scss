@@ -130,3 +130,15 @@ button {
     }
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .accordion-card {
+    padding: 30px 25px;
+    line-height: 20px;
+
+    h4 {
+      width: 80%;
+      text-align: left;
+    }
+  }
+}
